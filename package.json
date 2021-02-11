@@ -1,0 +1,14 @@
+{
+  "name": "dlqhandler",
+  "description": "Simple SQS Kinesis-DLQ handler.",
+  "version": "1.0.0",
+  "main": "src/dlqHandler.js",
+  "scripts": {
+    "build": "node",
+    "test": "echo \"No test specified\"",
+    "dlqmover": "node src/dlqHandler.js"
+  },
+  "devDependencies": {
+    "aws-sdk": "2.839.0"
+  }
+}
